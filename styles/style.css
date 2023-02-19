@@ -1,0 +1,100 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(101, 52, 52);
+    font-size: 27px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-menu {
+    background-color: rgb(168, 201, 227);
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+    .name {
+        font-size: 35px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+
+    .date {
+        font-family: Arial;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .menu {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+.content {
+    flex: 1;
+    height: 3000px;
+    margin-left: 292px;
+    margin-top: 0;
+    text-align: center;
+    position: relative;
+}
+
+    .home {
+        background-image: url("photos/fundal.jpeg");
+    }
+
+    #name {
+        font-size: 100px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+        margin-bottom: 2px;
+        margin-top: 223px;
+    }
+
+    #text {
+        font-size: 40px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .image {
+        margin-top: 600px;
+        width: 300px;
+        border-radius: 500px;
+    }
+
+    .table-countdown {
+        width: 600px;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: auto;
+        left: auto;
+
+
+        align-items: center;
+
+    }
+
+    .data-text {
+        font-size: 22px;
+    }
+
+    th {
+        font-size: 40px;
+        border-color: black;
+        border-style: solid;
+        border-radius: 10px;
+    }
